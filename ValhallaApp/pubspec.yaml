@@ -44,8 +44,7 @@ flutter:
     - assets/images/summer.jpg
     - assets/images/winter.jpg
     - assets/images/tree.jpg
-    - assets/brand/isotipo.svg
-    - assets/brand/isotipo-blanco.svg
+
   fonts:
     - family: Lato
       fonts:
