@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'custom/widgets/home.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,28 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Valhalla'),
-        ),
-        body: Center(
-            child: Text('Body')
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              title: Text('Home'),
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.account_circle),
-              title: Text('School'),
-            ),
-          ],
-          currentIndex: 0,
-          selectedItemColor: Colors.amber[800],
-        ),
-      ),
+      home: Home(),
     );
   }
 }
