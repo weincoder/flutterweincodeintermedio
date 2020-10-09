@@ -42,7 +42,7 @@ class H2 extends StatelessWidget{
 
 class NormalText extends StatelessWidget{
   final String text;
-  NormalText({Key key, this.text}):super(key:key);
+  NormalText( {Key key, this.text}):super(key:key);
   @override
   Widget build(BuildContext context) {
     return OurText (text:this.text, colorText: SCALE_03,);

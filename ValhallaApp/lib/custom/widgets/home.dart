@@ -1,3 +1,4 @@
+import 'package:ValhallaApp/custom/widgets/element_view.dart';
 import 'package:ValhallaApp/custom/widgets/our_app_bar.dart';
 import 'package:ValhallaApp/custom/widgets/our_footer.dart';
 import 'package:ValhallaApp/custom/widgets/our_image.dart';
@@ -10,10 +11,10 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: OurAppBar(title: 'Valhalla', iconAppBar: Icon(Icons.add_alert)),
       body: Center(
-          child: OurImage(pathImage: 'assets/images/tree.jpg',
-            widthImage: 300,
-            heightImage: 300,
-          ),
+          child: ElementView(pathImage: 'assets/images/space.jpg',
+            title: 'Esto es un titulo!!',
+            description: 'Esto es una descripción',
+          )
       ),
       bottomNavigationBar: OurFooter(iconLeft: Icon(Icons.home), iconRight: Icon(Icons.account_circle),),
     );
