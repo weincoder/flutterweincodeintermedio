@@ -31,6 +31,17 @@ class H1 extends StatelessWidget{
   }
 }
 
+
+class HeadingImage extends StatelessWidget{
+  final String text;
+  HeadingImage({Key key, this.text}):super(key:key);
+  @override
+  Widget build(BuildContext context) {
+    return OurText (text:this.text, colorText: SCALE_06, fontSize: 50,);
+  }
+}
+
+
 class H2 extends StatelessWidget{
   final String text;
   H2({Key key, this.text}):super(key:key);

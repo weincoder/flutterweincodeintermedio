@@ -44,6 +44,7 @@ flutter:
     - assets/images/summer.jpg
     - assets/images/winter.jpg
     - assets/images/tree.jpg
+    - assets/dato.txt
 
   fonts:
     - family: Lato
