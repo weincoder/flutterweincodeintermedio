@@ -12,8 +12,6 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 class Home extends StatelessWidget {
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,14 +36,9 @@ class Home extends StatelessWidget {
                           H2( text: 'Titulo id : ${snapshot.data.id}')
                         ],
                       );
-
-
                     }
                     return element;
-
                   },)
-
-
               ],
             )
           ),
