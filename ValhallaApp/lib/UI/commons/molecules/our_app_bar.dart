@@ -1,5 +1,5 @@
-import 'package:ValhallaApp/custom/widgets/fundation/colors.dart';
-import 'package:ValhallaApp/custom/widgets/fundation/ourText.dart';
+import '../tokens/colors.dart';
+import '../atoms/ourText.dart';
 import 'package:flutter/material.dart';
 
 class OurAppBar extends StatelessWidget with PreferredSizeWidget {

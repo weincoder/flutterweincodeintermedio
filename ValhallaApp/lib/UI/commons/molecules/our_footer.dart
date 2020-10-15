@@ -1,4 +1,5 @@
-import 'package:ValhallaApp/custom/widgets/fundation/colors.dart';
+import '../tokens/colors.dart';
+
 import 'package:flutter/material.dart';
 
 class OurFooter extends StatelessWidget {
