@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
       appBar: OurAppBar(title: 'Valhalla', iconAppBar: Icon(Icons.add_alert)),
       body: Center(
           child: FutureBuilder(
-            future: _albumConfig.getAlbumUseCase.getAlbumByID('4'),
+            future: _albumConfig.getAlbumUseCase.getAlbumByID('12'),
             builder: (BuildContext context, AsyncSnapshot snapshot) {
               Widget element = Container();
               if (snapshot.hasError){

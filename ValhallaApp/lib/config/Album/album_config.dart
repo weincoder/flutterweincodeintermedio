@@ -9,6 +9,4 @@ class AlbumConfig {
     _albumApi = AlbumApi();
     getAlbumUseCase = GetAlbumUseCase(_albumApi) ;
   }
-
-
 }
