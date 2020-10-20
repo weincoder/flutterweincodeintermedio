@@ -4,7 +4,6 @@ class Album{
     this.id,
     this.title,
   });
-
   int userId;
   int id;
   String title;

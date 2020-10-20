@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'UI/pages/home.dart';
-
 void main() {
   runApp(MyApp());
 }

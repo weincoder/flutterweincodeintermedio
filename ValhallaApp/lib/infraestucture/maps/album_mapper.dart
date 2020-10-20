@@ -1,7 +1,7 @@
 import 'dart:convert';
-import 'package:ValhallaApp/domain/models/album.dart';
+import 'file:///C:/Users/Admin/code/flutterweincodeintermedio/ValhallaApp/lib/domain/models/album/album.dart';
 
-albumFromJson (Map<String, dynamic> json) => Album(
+albumFromJson (Map<String, dynamic> json) =>  Album(
   userId: json["userId"],
   id: json["id"],
   title: json["title"],
