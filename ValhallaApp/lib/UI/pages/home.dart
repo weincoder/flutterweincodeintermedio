@@ -9,13 +9,13 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AlbumConfig _albumBloc = AlbumConfig();
+    AlbumConfig _albumConfig = AlbumConfig();
 
     return Scaffold(
       appBar: OurAppBar(title: 'Valhalla', iconAppBar: Icon(Icons.add_alert)),
       body: Center(
           child: FutureBuilder(
-            future: _albumBloc.getAlbumUseCase.getAlbumByID('4'),
+            future: _albumConfig.getAlbumUseCase.getAlbumByID('4'),
             builder: (BuildContext context, AsyncSnapshot snapshot) {
               Widget element = Container();
               if (snapshot.hasError){

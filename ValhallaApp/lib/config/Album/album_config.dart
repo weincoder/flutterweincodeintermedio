@@ -5,7 +5,7 @@ class AlbumConfig {
   GetAlbumUseCase getAlbumUseCase;
   AlbumApi _albumApi;
 
-  AlbumBloc (){
+  AlbumConfig (){
     _albumApi = AlbumApi();
     getAlbumUseCase = GetAlbumUseCase(_albumApi) ;
   }
