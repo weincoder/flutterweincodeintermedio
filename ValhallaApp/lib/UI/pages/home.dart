@@ -1,7 +1,7 @@
 import 'package:ValhallaApp/UI/commons/atoms/ourText.dart';
 import 'package:ValhallaApp/UI/commons/molecules/our_app_bar.dart';
 import 'package:ValhallaApp/UI/commons/molecules/our_footer.dart';
-import 'package:ValhallaApp/bloc/Album/try.dart';
+import 'package:ValhallaApp/config/Album/album_config.dart';
 import 'package:flutter/material.dart';
 
 
@@ -9,12 +9,13 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AlbumConfig _albumBloc = AlbumConfig();
 
     return Scaffold(
       appBar: OurAppBar(title: 'Valhalla', iconAppBar: Icon(Icons.add_alert)),
       body: Center(
           child: FutureBuilder(
-            future: algo(),
+            future: _albumBloc.getAlbumUseCase.getAlbumByID('4'),
             builder: (BuildContext context, AsyncSnapshot snapshot) {
               Widget element = Container();
               if (snapshot.hasError){

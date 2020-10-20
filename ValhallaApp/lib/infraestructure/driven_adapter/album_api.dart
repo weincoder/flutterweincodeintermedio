@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:ValhallaApp/domain/models/album/album.dart';
 import 'package:ValhallaApp/domain/models/album/gateway/album_gateway.dart';
-import 'package:ValhallaApp/infraestucture/maps/album_mapper.dart';
+import 'package:ValhallaApp/infraestructure/maps/album_mapper.dart';
 import 'package:http/http.dart' as  http;
 
 class  AlbumApi extends AlbumGateway {
