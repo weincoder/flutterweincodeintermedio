@@ -1,7 +1,7 @@
 import 'package:ValhallaApp/UI/commons/atoms/ourText.dart';
 import 'package:ValhallaApp/UI/commons/molecules/our_app_bar.dart';
 import 'package:ValhallaApp/UI/commons/molecules/our_footer.dart';
-import 'package:ValhallaApp/config/Album/album_config.dart';
+import 'package:ValhallaApp/config/usecase_config.dart';
 import 'package:flutter/material.dart';
 
 
@@ -9,7 +9,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AlbumConfig _albumConfig = AlbumConfig();
+    UseCaseConfig _albumConfig = UseCaseConfig();
 
     return Scaffold(
       appBar: OurAppBar(title: 'Valhalla', iconAppBar: Icon(Icons.add_alert)),
