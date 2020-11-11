@@ -16,17 +16,11 @@ device_pools:
 
   - pool_name: android pool 1
     pool_type: android
-    devices:
-      - name: Sony Xperia XZ2
-        model: Sony Xperia XZ2
-        os: 8.0.0
+
 
   - pool_name: ios pool 1
     pool_type: ios
-    devices:
-      - name: Apple iPhone X
-        model: A1865
-        os: 11.4
+
 
 test_suites:
 
