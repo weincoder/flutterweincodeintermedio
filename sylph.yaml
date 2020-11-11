@@ -9,7 +9,7 @@ sylph_timeout: 720 # seconds approx
 concurrent_runs: true
 
 # device farm config
-project_name: App Integration Tests
+project_name: GalateaApp
 default_job_timeout: 10 # minutes, set at project creation
 
 device_pools:
