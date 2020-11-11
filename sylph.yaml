@@ -17,8 +17,8 @@ device_pools:
   - pool_name: android pool 1
     pool_type: android
     devices:
-      - name: Google Pixel 2
-        model: Google Pixel 2
+      - name: Sony Xperia XZ2
+        model: Sony Xperia XZ2
         os: 8.0.0
 
   - pool_name: ios pool 1
