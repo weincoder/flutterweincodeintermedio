@@ -31,9 +31,9 @@ device_pools:
 test_suites:
 
   - test_suite: example tests 1
-    main: test_driver/main.dart
+    main: test_driver/app.dart
     tests:
-      - test_driver/main_test.dart
+      - test_driver/app_test.dart
     pool_names:
       - android pool 1
       - ios pool 1
