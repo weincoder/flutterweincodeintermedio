@@ -16,11 +16,17 @@ device_pools:
 
   - pool_name: android pool 1
     pool_type: android
-
+    devices:
+      - name: Google Pixel 2
+        model: Google Pixel 2
+        os: 9
 
   - pool_name: ios pool 1
     pool_type: ios
-
+    devices:
+      - name: Apple iPhone X
+        model: iPhone X
+        os: 11.4
 
 test_suites:
 
